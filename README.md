@@ -1,2 +1,2 @@
 # exercises
-compilations of exercises in java
+My Java code solution compilations
