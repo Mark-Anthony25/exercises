@@ -5,6 +5,7 @@ public class Solution {
 		Easy easy = new Easy();
 		System.out.println(easy.frontBack("Hello"));
 		System.out.println(easy.front3("Java"));
+		System.out.println(easy.missingChar("kitten", 2));
 	}
 		
 

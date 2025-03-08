@@ -1,8 +1,5 @@
 
 public class Easy {
-
-
-
 	public String frontBack(String str) {
 		int s = str.length();
 		int a = s - 1;
@@ -23,6 +20,12 @@ public class Easy {
 		}
 		String three = str.substring(0, 3);
 		return three + three + three;
+	}
+
+	public String missingChar(String str, int n) {
+		String missing = str.substring(0, n) + str.substring(n + 1);
+		return missing;
+
 	}
 
 }
