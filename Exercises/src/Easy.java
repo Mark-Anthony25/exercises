@@ -28,4 +28,11 @@ public class Easy {
 
 	}
 
+	public String backAround(String str) {
+		int size = str.length();
+		int less = size - 1;
+
+		return str.substring(less, size) + str + str.substring(less, size);
+	}
+
 }
