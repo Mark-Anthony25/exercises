@@ -6,5 +6,6 @@ public class Solution {
 		System.out.println(easy.front3("Java"));
 		System.out.println(easy.missingChar("kitten", 2));
 		System.out.println(easy.backAround("TRY It"));
+		System.out.println(Easy.isLeapYear(1925));
 	}
 }
