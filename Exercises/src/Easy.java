@@ -52,5 +52,9 @@ public class Easy {
 		double result2 = (int) (two*1000);
 		return result1 == result2;
 	}
+	public static boolean hasEqualSum(int num1, int num2, int num3){
+		int result = num1 +num2;
+		return result == num3;
+	}
 
 }
