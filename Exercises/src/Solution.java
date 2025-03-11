@@ -9,6 +9,9 @@ public class Solution {
 		System.out.println(Easy.isLeapYear(1925));
 		//System.out.println(easy.printYearsAndDays(929292));
 		Easy.printYearsAndDays(329478);
+		Mid mid = new Mid();
+		System.out.println(mid.area(5));
+		System.out.println(mid.area(5, 6));
 
 
 
