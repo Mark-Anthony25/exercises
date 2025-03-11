@@ -1,4 +1,3 @@
-
 public class Easy {
 	public String frontBack(String str) {
 		int s = str.length();
@@ -22,9 +21,11 @@ public class Easy {
 		return three + three + three;
 	}
 
+
 	public String missingChar(String str, int n) {
 		String missing = str.substring(0, n) + str.substring(n + 1);
 		return missing;
+
 
 	}
 
@@ -33,7 +34,9 @@ public class Easy {
 		int less = size - 1;
 
 		return str.substring(less, size) + str + str.substring(less, size);
+
 	}
+
 	public static boolean isLeapYear (int year) {
 
 		if(year>=1 && year <=9999){
@@ -55,6 +58,22 @@ public class Easy {
 	public static boolean hasEqualSum(int num1, int num2, int num3){
 		int result = num1 +num2;
 		return result == num3;
+	}
+	public static void printYearsAndDays(long minutes){
+		long year;
+		long day;
+		long hour;
+
+		hour = minutes/60;
+		day = hour/24;
+		year = day/365;
+		long days = day % 365;
+		if (minutes<0){
+			String str = "Invalid Value";
+			System.out.println(str);
+		}else{
+			System.out.println(minutes+" min = "+year + " y and " +days + " d");
+		}
 	}
 
 }
