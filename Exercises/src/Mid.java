@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Mid {
     public static double area(double radius){
@@ -161,6 +162,15 @@ public class Mid {
 //            return "You Win!!! The numbers are " + result1 + " and " + result2;
 //        }
 //        return "You Lose!!! The numbers are " + result1 + " and " + result2;
+    }
+
+    public static void genderChecker(String gender){
+        Person person = new Person();
+        Scanner scanner = new Scanner(System.in);
+        String gen = scanner.nextLine();
+
+        System.out.println(gen);
+        person.setGender(gen);
     }
 
 

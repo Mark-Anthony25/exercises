@@ -19,8 +19,11 @@ public class Solution {
 		System.out.println(Mid.reverseNumber(1124));
 		System.out.println(Mid.printSquareStar(1));
 		System.out.println(Mid.Lotto(5, 2));
-
-
+		Person person = new Person();
+		person.setName("Anthony");
+		person.setAge(120);
+		//person.setGender("male");
+		mid.genderChecker(person.getGender());
 
 	}
 }
