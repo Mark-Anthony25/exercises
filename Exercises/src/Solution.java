@@ -10,8 +10,15 @@ public class Solution {
 		//System.out.println(easy.printYearsAndDays(929292));
 		Easy.printYearsAndDays(329478);
 		Mid mid = new Mid();
-		System.out.println(mid.area(5));
-		System.out.println(mid.area(5, 6));
+		System.out.println(Mid.area(5));
+		System.out.println(Mid.area(5, 6));
+		int last = 95%10;
+		System.out.println(last);
+		System.out.println(Mid.sumOdd(1, 10));
+		System.out.println(Mid.isPalindrome(12321));
+		System.out.println(Mid.reverseNumber(1124));
+		System.out.println(Mid.printSquareStar(1));
+		System.out.println(Mid.Lotto(5, 2));
 
 
 
