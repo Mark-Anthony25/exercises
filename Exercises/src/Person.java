@@ -28,6 +28,12 @@ public class Person {
         return gender;
     }
 
+
+
+
+
+
+
     public void setGender(String gender) {
         if (gender.equals("male") || gender.equals("female")) {
             throw new IllegalArgumentException("Invalid Gender");
@@ -36,4 +42,8 @@ public class Person {
         }
         this.gender = gender;
     }
+
+
+
+
 }
